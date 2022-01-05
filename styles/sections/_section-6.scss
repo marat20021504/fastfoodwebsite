@@ -1,0 +1,58 @@
+.section-6 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+
+    .sec-6-texts {
+
+        h1 {
+            color: #FFFFFF;
+            font-size: 45px;
+            font-family: 'Poppins', sans-serif;
+
+            span {
+                color: #FE724C;
+            }
+
+        }
+
+        .sec-6-text {
+            display: flex;
+            gap: 25px;
+
+            a {
+                text-decoration: none;
+                font-size: 16px;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+            }
+
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            color: #D9DBE1;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+    }
+
+    .get-the-app {
+        
+        p {
+            font-family: 'Roboto', sans-serif;
+            color: #D9DBE1;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+       
+        
+        position: relative;
+        bottom: -50px;
+    }
+
+}

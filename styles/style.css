@@ -437,4 +437,60 @@
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
 }
+
+.section-6 {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 50px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-6 .sec-6-texts h1 {
+  color: #FFFFFF;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-6 .sec-6-texts h1 span {
+  color: #FE724C;
+}
+
+.section-6 .sec-6-texts .sec-6-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.section-6 .sec-6-texts .sec-6-text a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-6 .sec-6-texts p {
+  font-family: 'Roboto', sans-serif;
+  color: #D9DBE1;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.section-6 .get-the-app {
+  position: relative;
+  bottom: -50px;
+}
+
+.section-6 .get-the-app p {
+  font-family: 'Roboto', sans-serif;
+  color: #D9DBE1;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
