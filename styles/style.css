@@ -338,4 +338,103 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.section-5 {
+  width: 100%;
+  height: 100vh;
+  background: #F4F5F7;
+  padding: 50px 150px;
+}
+
+.section-5 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+.section-5 p {
+  font-size: 18px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-5 .boxes-section-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.section-5 .boxes-section-5 .box-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.section-5 .boxes-section-5 .box-con .boxs {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.section-5 .boxes-section-5 .box-con .boxs h2 {
+  text-align: center;
+  color: #18191F;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+.section-5 .boxes-section-5 .box-con .boxs p {
+  color: #18191F;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.section-5 .boxes-section-5 .box-con .box-con-clint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.section-5 .boxes-section-5 .box-con .box-con-clint h2 {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-5 .boxes-section-5 .box-con .box-con-clint p {
+  color: #474A57;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
