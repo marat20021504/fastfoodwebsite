@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-1 {
+  height: auto;
+  width: 100%;
+  background: black;
+  background-image: url("/assets/images/image 2.svg");
+  background-position: center;
+  background-size: cover;
+  padding: 55px 150px;
+}
+
+.section-1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-1 header h1 {
+  color: #FFFFFF;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-1 header h1 span {
+  color: #FE724C;
+}
+
+.section-1 header .header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.section-1 header .header-text a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-1 header .header-text a:hover {
+  color: #00c3ff;
+}
+
+.section-1 header .header-text button {
+  width: 140px;
+  height: 50px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 100px;
+  border: none;
+  color: #FE724C;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-1 .container .text-container h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-1 .container .text-container p {
+  color: #FFFFFF;
+  opacity: 0.9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-1 .container .text-container .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.section-1 .container .text-container .btn .btn-1 {
+  width: 170px;
+  height: 55px;
+  background: #FE724C;
+  border-radius: 100px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 18px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+}
+
+.section-1 .container .text-container .btn .btn-2 {
+  width: 170px;
+  height: 55px;
+  border-radius: 100px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 18px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
